@@ -2,6 +2,8 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <link href="netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   <title>CodePen - Trello Clone</title>
   <link rel="stylesheet" href="./style.css">
 
@@ -10,29 +12,59 @@
 <!-- partial:index.partial.html -->
 <div id="main">
   <div class="list">
-    <div class="title removable editable">This is a list</div>
+    
+    <div class="title removable editable">Product Backlog</div>
+    <i class="fa-solid fa-bus-simple"></i>
     <div class="content">
-      <div class="card removable editable">This is a card</div>
-      <div class="card removable editable" style="">Look, another card!</div>
+      <div class="card removable editable">Dublin bus info</div>
+      <div class="card removable editable" style="">Launching the product</div>
+      <div class="card removable editable" style="">Testing final product</div>
+      <div class="card removable editable" style="">Submit app to the app store</div>
+      <div class="card removable editable" style="">Getting users feedback</div>
+      <div class="card removable editable" style="">Market research</div>
     </div>
     <div class="add-card editable">Add another card</div>
   </div>
   <div class="list">
-    <div class="title removable editable">Another list</div>
+    <div class="title removable editable">Current Sprint Backlog</div>
     <div class="content">
-      <div class="card removable editable">Hello world!</div>
+      <div class="card removable editable">Submit app to the app store</div>
+      <div class="card removable editable" style="">Design Extra functionalities</div>
     </div>
     <div class="add-card editable">Add another card</div>
   </div>
   <div class="list">
-    <div class="title removable editable">Empty list</div>
-    <div class="content"></div>
-    <div class="add-card editable">Add another card</div>
+    <div class="title removable editable">In progress</div>
+    <div class="content">
+      <div class="card removable editable" style="">Installing driver's tablet</div>
+      <div class="card removable editable" style="">Renewing the app</div>
+      <div class="add-card editable">Add another card</div>>
   </div>
 </div>
 
-<div class="add-list">
-  <div class="title editable">Add another list</div>
+<div class="list">
+  <div class="title editable">Review</div>
+  <div class="content">
+    <div class="card removable editable" style="">Developing product</div>
+    <div class="card removable editable" style="">Placing flow meter</div>
+    <div class="card removable editable" style="">Checking cameras</div>
+  </div>
+</div>
+
+<div class="list">
+  <div class="title editable">Done</div>
+  <div class="content">
+    <div class="card removable editable">Meeting with investors of the project</div>
+    <div class="card removable editable" style="">Defining Marketing team</div>
+    <div class="card removable editable" style="">Developing product</div>
+  </div>
+</div>
+
+<div class="list">
+  <div class="title editable">Additional resources</div>
+  <div class="content">
+    <div class="card removable editable">No additional resources</div>
+  </div>
 </div>
 <!-- partial -->
   <script src='https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js'></script><script  src="./script.js"></script>
